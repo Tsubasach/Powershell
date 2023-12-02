@@ -1,0 +1,3 @@
+get-process | select-object -property processname | export-csv -path "c:\users\desktop\process.txt" | get-content -path "c"\users\desktop\process.txt"
+$length = get-content -path "c:\users\desktop\process.txt"
+$length.length
