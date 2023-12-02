@@ -1,0 +1,1 @@
+get-winevent -logname security | where-object -property message -match "shutdown" |where-object -property id -match "1074"
