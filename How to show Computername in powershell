@@ -1,0 +1,1 @@
+get-ciminstance -classname win32_operatingsystem -property * | select-object -property csname
